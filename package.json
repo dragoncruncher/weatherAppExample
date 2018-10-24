@@ -1,0 +1,13 @@
+{
+  "author": "StuartCrokcer",
+  "license": "ISC",
+  "scripts": {
+    "runTests": "cypress run --browser chrome",
+    "openCypress": "cypress open"
+  },
+  "devDependencies": {
+    "@cypress/snapshot": "^2.0.1",
+    "cypress": "^3.1.0",
+    "cypress-cucumber-preprocessor": "^1.5.1"
+  }
+}
