@@ -1,5 +1,5 @@
 {
-  "author": "StuartCrokcer",
+  "author": "StuartCrocker",
   "license": "ISC",
   "scripts": {
     "runTests": "cypress run --browser chrome",
