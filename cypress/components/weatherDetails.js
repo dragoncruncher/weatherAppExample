@@ -7,7 +7,6 @@ module.exports = {
     DETAILSPROPERTIES: detailsProperties(),
     DETAILSTABLEBODY: "tbody",
     DETAILSVALUES: "td",
-    DETAILSROWS: "tr",
     doesPropertyExistInTheWeatherDetails: function(property) {
         let result = false;
         return new Cypress.Promise((resolve) => {
@@ -22,9 +21,5 @@ module.exports = {
                 resolve(result)
             })
         })
-    },
-    EXPECTEDDETAILS: {
-        Time: "time",
-        Summary: "summary"
     }
 }

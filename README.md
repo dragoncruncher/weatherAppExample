@@ -20,8 +20,9 @@ When Cypress has opened, select one of the feature files. This will open the bro
 **To run Cypress and have it close on test completion, use the command**
 * _npm run runTests_
 
-### Note
-Given the scenarios I've chosen, there are some genuine test failures when running the integrated ones :)
+### Notes
+1. On first run the SUT takes a little while to warm up and my cause failures;
+2. Given the scenarios I've chosen, there is one genuine test failure when running the integrated scenarios :)
 
 ## Why have I made the choices demonstrated?
 I've used Cypress a little whilst looking at options to help focus the automated checking we use in the team. Looking at the exercise, this seemed like a good opportunity to refresh myself with Cypress and extend it with first, a Cucumber implementation to meet the BDD requirements and second to use the inline stubbing capability to demonstrate an option for removing the backend as a dependency for the checks, which is a consideration when integrating browser checks in a CI pipeline.
